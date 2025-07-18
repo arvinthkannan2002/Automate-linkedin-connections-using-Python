@@ -15,8 +15,8 @@ driver.get("https://www.linkedin.com/login")
 
 username = driver.find_element(By.ID, "username")
 password = driver.find_element(By.ID, "password")
-username.send_keys("arvinthkannan31@gmail.com")
-password.send_keys("Kannan@123")
+username.send_keys("8888888888888@gmail.com")# your userid
+password.send_keys("K*********") #your password
 
 
 login_button = driver.find_element(By.XPATH, "//button[@type='submit']")
